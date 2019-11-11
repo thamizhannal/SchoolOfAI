@@ -7,14 +7,14 @@ only horizontal edges, only vertical edges etc.
 Consider a case to where we need to detect ingredients used to make a Biriyani and an image is given. In computer vision, we use separate 
 channels to detect each ingredient such as rice channel, meat channel, salt channel, garlic channel etc.
 
-![Alt Text] (https://raw.githubusercontent.com/thamizhannal/SchoolOfAI/master/images/channels.jpg?token=AB62OPRFOCUTSKRDBZJOX2C5ZFO3S)
+![Alt Text](https://raw.githubusercontent.com/thamizhannal/SchoolOfAI/master/images/channels.png?token=AB62OPTZNRTXX4UNYXIUDHS5ZFPPC)
 
 <b> Kernel: </b><br>
 In computer vision, kernel/filter/feature extractor is a 3x3 numerical matrix that essentially used to perform operation such as
 horizontal/vertical edge detection, blurring, sharpening in the given image. This is achieved by convolving input image with kernel
 that has specific numerical values to above operation specified. In Deep learning, these kernel values are randomly initialized.
 
-![Alt Text]( https://raw.githubusercontent.com/thamizhannal/SchoolOfAI/master/conv3x3.gif?token=AB62OPS747HWJ7W2KRCPWK24YX2XW )
+![Alt Text]( https://raw.githubusercontent.com/thamizhannal/SchoolOfAI/master/images/conv3x3.gif?token=AB62OPQTE5GHHIDPHTXWT2S5ZFPSQ )
 
 <b> Why should we only (well mostly) use 3x3 Kernels? </b>
 
@@ -28,7 +28,7 @@ It requires 25 multiplication and one summation operation. Same can be achieved 
 and each performs 9 multiplications and one summation totally 18 multiplications instead of 25 in 5x5 kernel. So, it reduces computation
 drastically.
 
-![Alt Text]( https://raw.githubusercontent.com/thamizhannal/SchoolOfAI/master/5x5_vs_2_3x3.png?token=AB62OPQTWRWOOXHSKWFRHM24YX3Q6 )
+![Alt Text]( https://raw.githubusercontent.com/thamizhannal/SchoolOfAI/master/images/5x5_vs_2_3x3.png?token=AB62OPRVIKNAP5G67LYSHE25ZFPU6 )
 
 <b> How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199 (show calculations) </b> 
 We need to perform 99 times 3x3 convolution operation to reach 1x1.
