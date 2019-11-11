@@ -7,7 +7,7 @@ only horizontal edges, only vertical edges etc.
 Consider a case to where we need to detect ingredients used to make a Biriyani and an image is given. In computer vision, we use separate 
 channels to detect each ingredient such as rice channel, meat channel, salt channel, garlic channel etc.
 
-![Alt Text](https://raw.githubusercontent.com/thamizhannal/SchoolOfAI/master/channels.jpg?token=AB62OPTJWCTVIB76LBCTXRK4YX2SK)
+![Alt Text] (https://raw.githubusercontent.com/thamizhannal/SchoolOfAI/master/images/channels.jpg?token=AB62OPRFOCUTSKRDBZJOX2C5ZFO3S)
 
 <b> Kernel: </b><br>
 In computer vision, kernel/filter/feature extractor is a 3x3 numerical matrix that essentially used to perform operation such as
