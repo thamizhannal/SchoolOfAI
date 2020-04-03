@@ -10,7 +10,8 @@
 
 We initialize the Experience Replay Memory with a size of 1e6. Then we populate it with new transitions
 
-![Step1]( https://raw.githubusercontent.com/thamizhannal/SchoolOfAI/master/phase2_assignment9/images/s1.png?token=AB62OPVTLPSQNGK7GU3B5VS6Q5KGW)
+![Step1]( https://raw.githubusercontent.com/thamizhannal/EIP3/master/p2s9_images/s1.png)
+
 Here a sigle trasition consist of state, next state, reward and action.
 s-current state
 s'-next state
