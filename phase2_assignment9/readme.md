@@ -40,7 +40,8 @@ Here max_action is to clip in case we added too much noise.
 
 
 
-![Step2]( https://raw.githubusercontent.com/thamizhannal/SchoolOfAI/master/phase2_assignment9/images/s2.png?token=AB62OPS2S35L6276XAAPYQK6Q5JNO )
+![Step2]( https://raw.githubusercontent.com/thamizhannal/EIP3/master/p2s9_images/s2.png )
+
 
 ## 	STEP 3
 
@@ -56,8 +57,7 @@ Q1():  To update Q values using the x-state, u=action arguments.
 
 
 
-![Step3]( https://raw.githubusercontent.com/thamizhannal/SchoolOfAI/master/phase2_assignment9/images/s3.png?token=AB62OPUDNYWWT7B5RP5EEKC6Q5JS2
-)
+![Step3]( https://raw.githubusercontent.com/thamizhannal/EIP3/master/p2s9_images/s3.png )
 
 ### STEP 4-15
 
@@ -85,7 +85,7 @@ Given state it chooses an action to be taken by actor model.
 
 ### T3D Algorithm Train Flow chart -Step4-Step15
 
-<img src=" https://raw.githubusercontent.com/thamizhannal/SchoolOfAI/master/phase2_assignment9/images/s4s15.png?token=AB62OPXLK6BL5UYBYNUEUDC6Q5KCE" alt="Step4-s15" style="zoom:150%;" />
+<img src="https://raw.githubusercontent.com/thamizhannal/EIP3/master/p2s9_images/s4s15.png" alt="Step4-s15" style="zoom:150%;" />
 
 ### STEP 4
 
