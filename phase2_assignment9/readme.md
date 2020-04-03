@@ -129,15 +129,15 @@ ReadBuffer trasitions were choosen as given batch size.
 ### STEP 12
 
 		Backpropagate this critic loss and update the parameters of two Critic models
-Set Critic optimizer=zero grad(),
-Set criticloss.backward()
-critic_optimizer.setp()//weight update
+		Set Critic optimizer=zero grad(),
+		Set criticloss.backward()
+		critic_optimizer.setp()//weight update
 
 ### STEP 13 
 
-Once every two iterations, we update our Actor model by performing gradient ASCENT on the output of the first Critic model
-Set actorloss=-(CriticQ1(state,actor(state)).mean()
-Set actor optimizer=zero grad(),actorloss.backward(), actor_optimizer.setp()
+	Once every two iterations, we update our Actor model by performing gradient ASCENT on the output of the first Critic model
+	Set actorloss=-(CriticQ1(state,actor(state)).mean()
+	Set actor optimizer=zero grad(),actorloss.backward(), actor_optimizer.setp()
 
 
 ### STEP 14
